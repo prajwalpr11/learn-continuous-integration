@@ -57,6 +57,7 @@ Together, [self-hosted, macOS, X64] ensures that the workflow runs specifically 
 2. In `main.yml`, on which branch do the jest tests run when a push to main branch is made?
 
 
+
 The Jest tests run on the main branch whenever there is a push to the main branch, as defined in the on.push.branches section of the main.yml file.
 
 
