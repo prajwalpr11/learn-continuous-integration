@@ -44,6 +44,8 @@ First setup your machine or your teammate's machine to be the self hosted runner
 Answer the following questions:
 
 1. What does the __runs-on__ string  
+
+
 The runs-on string specifies the environment where the workflow job will execute. In this case:
 
 self-hosted: Indicates that the workflow will run on a self-hosted runner.
@@ -53,10 +55,14 @@ Together, [self-hosted, macOS, X64] ensures that the workflow runs specifically 
 
 
 2. In `main.yml`, on which branch do the jest tests run when a push to main branch is made?
+
+
 The Jest tests run on the main branch whenever there is a push to the main branch, as defined in the on.push.branches section of the main.yml file.
 
 
 3. In `main.yml`, on which branch do the jest tests run when a pull request is submitted to the deploy branch?
+
+
 The Jest tests run on the deploy branch when a pull request is submitted to the deploy branch, as specified in the on.pull_request.branches section
 
 
